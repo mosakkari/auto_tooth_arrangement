@@ -10,7 +10,13 @@ To install python requirements:
 pip install -r requirements.txt
 ```
 
-To install chamfer distance:
+To install chamfer distance: 
+Check if /usr/local/cuda-11.7/bin/nvcc exists
+
+```
+ls /usr/local/cuda-11.7/bin/nvcc
+
+```
 
 ```shell
 cd chamfer_dist
